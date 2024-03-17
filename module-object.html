@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module Object</title>
+</head>
+<body>
+<script type="module">
+
+    import * as fatur from "./scripts/module-object.js";
+
+    console.info(fatur.firstName);
+    console.info(fatur.middleName);
+    console.info(fatur.lastName);
+
+    fatur.hello();
+
+    const person = new fatur.Person();
+
+</script>
+</body>
+</html>

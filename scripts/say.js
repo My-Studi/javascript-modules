@@ -6,4 +6,4 @@ export function sayGoodBye(name) {
     console.info(`Good Bye ${name}`);
 }
 
-const name = "Fathur";
+export const name = "Fathur";

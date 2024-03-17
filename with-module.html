@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Without Module</title>
-    <script src="scripts/library.js"></script>
+    <title>With Module</title>
+    <script type="module" src="scripts/say.js"></script>
 </head>
 <body>
-<script>
+<script type="module">
+
+    import {sayHello, sayGoodBye, name} from "./scripts/say.js"
+
     sayHello("Fathur");
     sayGoodBye("Fathur");
 
